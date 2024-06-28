@@ -5,6 +5,6 @@ image:
   pullPolicy: IfNotPresent
 service:
   type: ClusterIP
-  port: 80
+  port: 90
 colorSecretName: "color-secret"
 appConfigName: "app-config"
